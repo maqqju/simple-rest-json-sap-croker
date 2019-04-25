@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('melitaEndpoints', [
+angular.module('simpleRestJsonSap', [
 	'ngResource',
 	'ngRoute',
 ]).config([

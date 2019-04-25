@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module("melitaEndpoints")
+angular.module("simpleRestJsonSap")
 .controller("SubscriptionsCtrl", ["$scope","Subscriptions", "$routeParams", function ($scope, Subscriptions, $routeParams) {
 	console.log("dahal hawn");
 	Subscriptions.get({subscriptionId : $routeParams.subscriptionId}, (res) => {

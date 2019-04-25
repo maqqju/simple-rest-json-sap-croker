@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module("melitaEndpoints")
+angular.module("simpleRestJsonSap")
 .filter("usage", [function() {
 	function UsageFilter(input) {
 		if (input instanceof Array) {
