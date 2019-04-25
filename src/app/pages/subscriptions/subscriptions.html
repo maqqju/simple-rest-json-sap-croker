@@ -1,0 +1,19 @@
+<div>
+	<table>
+		<thead>
+			<th>Subscription Id</th>
+			<th>Name</th>
+			<th>Type</th>
+			<th>Additional Notes</th>
+		</thead>
+		<tbody>
+			<tr ng-repeat="subscription in subscriptions">
+				<td>{{subscription.id}}</td>
+				<td>{{subscription.name}}</td>
+				<td>{{subscription.type}}</td>
+				<td>{{subscription.usage | usage}}</td>
+			</tr>
+		</tbody>
+	</table>
+	<div><a href="/"><<<< Back</a></div>
+</div>

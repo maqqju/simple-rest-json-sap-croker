@@ -1,0 +1,18 @@
+<div>
+	<table>
+		<thead>
+			<th>Offer Id</th>
+			<th>Name</th>
+			<th>Contract Start Date</th>
+			<th>Contract End Date</th>
+		</thead>
+		<tbody>
+			<tr ng-repeat="offer in offers">
+				<td><a ng-href="/#!/subscriptions/{{offer.id}}">{{offer.id}}</a></td>
+				<td>{{offer.name}}</td>
+				<td>{{offer.contractStartDate}}</td>
+				<td>{{offer.contractEndDate}}</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
